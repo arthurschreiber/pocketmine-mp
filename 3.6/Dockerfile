@@ -78,3 +78,4 @@ EXPOSE 19132/udp
 VOLUME /data
 
 # Run the app when launched
+CMD [ "bash", "/minecraft/start.sh", "--no-wizard"]
